@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'super_bubbleregular';
+    src: url('super_bubble-webfont.woff2') format('woff2'),
+         url('super_bubble-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+body{
+    background-color: #F7B772;
+}
+
+h1{
+    font-family: 'super_bubbleregular';
+    color: #92A281;
+    text-align: center;
+}
+h3{
+    font-family: 'super_bubbleregular';
+    color: #db62ad;
+    text-align: center;
+}
+h5{
+    font-family: 'super_bubbleregular';
+    color: #e7ffcd;
+    text-align: center;
+}
+.part1{
+    text-align: center;
+}
+
+.rbutton{
+    font-family: 'super_bubbleregular';
+    font-size: large;
+    padding: 15px 60px;
+    background-color: #92A281;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.vinyl{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    animation: rotate 10s linear infinite;
+
+}
+
+.reproductor{
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.562);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.playbtn{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.stopbtn{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.st-img{
+    width: 40px;
+    height: 40px;
+}
+.pl-img{
+    width: 40px;
+    height: 40px;
+}
+.musicname{
+    color: #db62ad;
+    font-family: 'super_bubbleregular';
+}
