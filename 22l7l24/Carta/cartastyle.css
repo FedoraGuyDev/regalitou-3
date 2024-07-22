@@ -1,0 +1,67 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body{
+    background-color: #e6fdff;
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #111111;
+    text-align: center;
+    margin: 10px;
+}
+h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #111111;
+    text-align: center;
+    margin: 10px;
+}
+.part1{
+    text-align: center;
+}
+
+.vinyl{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    animation: rotate 10s linear infinite;
+
+}
+
+.reproductor{
+    text-align: center;
+    background-color: rgba(240, 255, 255, 1);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.playbtn{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.stopbtn{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.st-img{
+    width: 40px;
+    height: 40px;
+}
+.pl-img{
+    width: 40px;
+    height: 40px;
+}
+.musicname{
+    color: #111111;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
